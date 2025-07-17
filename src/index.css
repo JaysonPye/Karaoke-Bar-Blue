@@ -33,3 +33,7 @@ h1, .font-heading {
   color: var(--color-navy);
   box-shadow: 0 0 1rem var(--color-neon-blue);
 }
+
+.drop-shadow-glow {
+  filter: drop-shadow(0 0 1px #ff38ff) drop-shadow(0 0 1px #ff38ff);
+}
